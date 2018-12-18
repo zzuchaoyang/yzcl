@@ -1,0 +1,366 @@
+/* 新房列表 */
+.list-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 45px;
+	z-index: 99;
+	background-color: #3A4556;
+	overflow: hidden;
+}
+.list-tab {
+	display: flex;
+	width: 203px;
+	height: 29px;
+	line-height: 29px;
+	padding: 0;
+	margin: 8px auto;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	list-style: none;
+}
+.list-tab li {
+	flex: 1;
+	color: #fff;
+	font-size: .75rem;
+	text-align: center;
+}
+.list-tab li.current {
+	background-color: #fff;
+	color: #3A4556;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+/* 新房下拉检索 */
+.search-sort {
+	display: flex;
+	position: fixed;
+	top: 45px;
+	left: 0;
+	right: 0;
+	height: 42px;
+	line-height: 42px;
+	border-bottom: 1px solid #DBDBDB;
+	z-index: 99;
+}
+.sort-list {
+	position: relative;
+	flex: 1;
+	text-align: center;
+	background-color: #fff;
+}
+.sort-list:before {
+	position: absolute;
+	right: 0;
+	top: 12px;
+	content: '';
+	width: 1px;
+	height: 19px;
+	background-color: #DBDBDB;
+}
+.sort-list:last-child:before {
+	display: none;
+}
+.sort-list a {
+	display: inline-block;
+}
+.sort-list p {
+	display: inline-block;
+	float: left;
+	color: #404040;
+	font-size: .75rem;
+}
+.cart {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	color: #969696;
+	vertical-align: middle;
+	border-top: 5px dashed;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+/* 新房列表 */
+.new-list {
+	width: 100%;
+	height: auto;
+	padding: 0 16px 0 19px;
+	margin: 100px auto 0 auto;
+	border-top: 1px solid #DBDBDB;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.new-list a {
+	display: flex;
+	width: 100%;
+	min-height: 115px;
+	padding: 15px 0;
+	border-bottom: 1px solid #DBDBDB;
+	box-sizing: border-box;
+}
+.list-img {
+	flex: 0 0 110px;
+	width: 110px;
+	height: 85px;
+	margin-right: 15px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+.list-text {
+	flex: 1;
+	overflow: hidden;
+}
+.list-title {
+	margin-bottom: 5px;
+}
+.house-name {
+	display: contents;
+	float: left;
+	margin-top: -2px;
+	color: #000;
+	font-size: .75rem;
+} 
+.title-tag {
+	display: inline-block;
+	padding: 1px 7px;
+	margin-left: 5px;
+	color: #0EB188;
+	font-size: .55rem;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	background-color: #e6f7f3;
+}
+.house-add {
+	margin-bottom: 3px;
+	color: #999;
+	font-size: .6rem;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+.firm-name {
+	display: block;
+	margin-bottom: 6px;
+	color: #999;
+	font-size: .6rem;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+.unit-price p {
+	display: inline-block;
+	float: left;
+	color: #F64610;
+	font-size: .6rem;
+}
+.unit-price span {
+	display: inline-block;
+	float: left;
+	margin-top: -4px;
+	color: #F64610;
+	font-size: .85rem;
+	font-weight: bold;
+	font-style: normal;
+}
+/* 排序按钮 */
+.sort-icon {
+	position: fixed;
+	right: 11px;
+	bottom: 25px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	z-index: 99;
+	overflow: hidden;
+}
+.sort-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .5;
+	z-index: 99;
+}
+.sort-img {
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 999;
+	text-align: center;
+}
+/* 排序列表 */
+.cover-total {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+}
+.cover-bg {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+	background-color: #000000;
+	opacity: .5;
+}
+.sort-icon-list {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	background-color: #fff;
+}
+.sort-icon-list a {
+	display: block;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	color: #666;
+	font-size: .85rem;
+	border-bottom: 1px solid #e5e5e5;
+	text-align: center;
+}
+.sort-icon-list a.on {
+	color: #00B48A;
+}
+.sort-icon-list a:last-child {
+	border-bottom: none;
+}
+/* 新房检索 */
+.new-search-list {
+	position: fixed;
+	top: 88px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+}
+.search-bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	opacity: .5;
+	z-index: 99;
+}
+.search-common-list {
+	height: 262px;
+	background-color: #fff;
+	overflow: scroll;
+}
+.search-common-list a {
+	display: block;
+	height: 43px;
+	line-height: 43px;
+	color: #333;
+	font-size: .75rem;
+	border-bottom: 1px solid #e5e5e5;
+	text-align: center;
+}
+.search-common-list a.on {
+	color: #00B38B;
+	background-image: url(../img/checked.png);
+	background-size: 17px 12px;
+	background-position: 95% 48%;
+	background-repeat: no-repeat;
+}
+.search-common-list a:last-child {
+	border-bottom: none;
+}
+.search-list-btn {
+	height: 51px;
+	background-color: #F6F6F6;
+	z-index: 999;
+	border-top: 1px solid #e5e5e5;
+}
+.reset-btn {
+	display: block;
+	float: left;
+	width: 65px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-left: 12px;
+	color: #19B18B;
+	font-size: .75rem;
+	border: 1px solid #19B18B;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	text-align: center;
+}
+.affrim-btn {
+	display: block;
+	float: right;
+	width: 65px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-right: 12px;
+	color: #fff;
+	font-size: .75rem;
+	border: 1px solid #19b18b;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	background-color: #19b18b;
+	text-align: center;
+}
+.search-total-div {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 999;
+}
+.search-city {
+	display: none;
+}
+.search-price {
+	display: none;
+}
+.search-type {
+	display: none;
+}
+.blue-color {
+	color: #19B18B !important;
+}
+.click-tag {
+	font-style: normal;
+}

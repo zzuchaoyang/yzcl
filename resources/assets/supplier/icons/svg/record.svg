@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve">
+<path style="fill:#03AA6F;" d="M224,96h104v96H224V96z"/>
+<path style="fill:#FFD77F;" d="M48,352h104v64H48V352z"/>
+<path style="fill:#BFBDBA;" d="M360,96h112v320c0,30.928-25.072,56-56,56s-56-25.072-56-56l0,0V96z"/>
+<path style="fill:#EDEAE7;" d="M152,416v-64H48v64H152z M224,96v96h104V96H224z M416,472H64c-30.928,0-56-25.072-56-56l0,0V8h352
+	v408C360,446.928,385.072,472,416,472L416,472z"/>
+<g>
+	<g>
+		<path id="SVGCleanerId_0" style="fill:#B4A49C;" d="M88,88h112v16H88V88z"/>
+	</g>
+	<g>
+		<path id="SVGCleanerId_1" style="fill:#B4A49C;" d="M40,120h160v16H40V120z"/>
+	</g>
+	<g>
+		<path id="SVGCleanerId_2" style="fill:#B4A49C;" d="M40,152h160v16H40V152z"/>
+	</g>
+	<g>
+		<path id="SVGCleanerId_3" style="fill:#B4A49C;" d="M40,184h160v16H40V184z"/>
+	</g>
+	<g>
+		<path id="SVGCleanerId_4" style="fill:#B4A49C;" d="M40,216h264v16H40V216z"/>
+	</g>
+	<g>
+		<path id="SVGCleanerId_5" style="fill:#B4A49C;" d="M96,280h232v16H96V280z"/>
+	</g>
+	<g>
+		<path id="SVGCleanerId_6" style="fill:#B4A49C;" d="M40,312h288v16H40V312z"/>
+	</g>
+	<g>
+		<path id="SVGCleanerId_7" style="fill:#B4A49C;" d="M176,344h152v16H176V344z"/>
+	</g>
+	<g>
+		<path id="SVGCleanerId_8" style="fill:#B4A49C;" d="M176,376h152v16H176V376z"/>
+	</g>
+	<g>
+		<path id="SVGCleanerId_9" style="fill:#B4A49C;" d="M176,408h152v16H176V408z"/>
+	</g>
+</g>
+<g>
+	<path style="fill:#BFBDBA;" d="M328,200H224c-4.418,0-8-3.582-8-8V96c0-4.418,3.582-8,8-8h104c4.418,0,8,3.582,8,8v96
+		C336,196.418,332.418,200,328,200z M232,184h88v-80h-88V184z"/>
+	<path style="fill:#BFBDBA;" d="M152,424H48c-4.418,0-8-3.582-8-8v-64c0-4.418,3.582-8,8-8h104c4.418,0,8,3.582,8,8v64
+		C160,420.418,156.418,424,152,424z M56,408h88v-48H56V408z"/>
+</g>
+<path style="fill:#B4A49C;" d="M80,32h208v16H80V32z"/>
+<g>
+	<path style="fill:#EDEAE7;" d="M392,120h16v16h-16V120z"/>
+	<path style="fill:#EDEAE7;" d="M448,168h-16v-32h-8v-16h16c4.418,0,8,3.582,8,8V168z"/>
+</g>
+<path d="M64,480h352c35.33-0.04,63.96-28.67,64-64V96c0-4.418-3.582-8-8-8H368V8c0-4.418-3.582-8-8-8H8C3.582,0,0,3.582,0,8v408
+	C0.04,451.33,28.67,479.96,64,480z M368,104h96v312c0,26.51-21.49,48-48,48s-48-21.49-48-48V104z M16,16h336v400
+	c0.01,18.396,7.959,35.892,21.808,48H64c-26.499-0.026-47.974-21.501-48-48V16z"/>
+<path id="SVGCleanerId_0_1_" d="M88,88h112v16H88V88z"/>
+<path id="SVGCleanerId_1_1_" d="M40,120h160v16H40V120z"/>
+<path id="SVGCleanerId_2_1_" d="M40,152h160v16H40V152z"/>
+<path id="SVGCleanerId_3_1_" d="M40,184h160v16H40V184z"/>
+<path id="SVGCleanerId_4_1_" d="M40,216h264v16H40V216z"/>
+<path id="SVGCleanerId_5_1_" d="M96,280h232v16H96V280z"/>
+<path id="SVGCleanerId_6_1_" d="M40,312h288v16H40V312z"/>
+<path id="SVGCleanerId_7_1_" d="M176,344h152v16H176V344z"/>
+<path id="SVGCleanerId_8_1_" d="M176,376h152v16H176V376z"/>
+<path id="SVGCleanerId_9_1_" d="M176,408h152v16H176V408z"/>
+<path d="M216,96v96c0,4.418,3.582,8,8,8h104c4.418,0,8-3.582,8-8V96c0-4.418-3.582-8-8-8H224C219.582,88,216,91.582,216,96z
+	 M232,104h88v80h-88V104z"/>
+<path d="M48,424h104c4.418,0,8-3.582,8-8v-64c0-4.418-3.582-8-8-8H48c-4.418,0-8,3.582-8,8v64C40,420.418,43.582,424,48,424z
+	 M56,360h88v48H56V360z"/>
+<path d="M80,32h208v16H80V32z"/>
+<path d="M392,120h16v16h-16V120z"/>
+<path d="M432,168h16v-40c0-4.418-3.582-8-8-8h-16v16h8V168z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>

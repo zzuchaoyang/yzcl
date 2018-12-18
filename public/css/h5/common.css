@@ -1,0 +1,36 @@
+/* CSS Document */
+* { 
+  margin: 0; 
+  padding: 0;
+}
+html {
+  font-size: 20px;
+}
+body{ 
+  font-family: "微软雅黑",Helvetica,Arial,sans-serif; 
+  font-size: .6rem; 
+  margin: 0; 
+  padding: 0;
+  background-color: #F7F7F7;
+}
+img {
+  display: block; 
+  height: auto; 
+  width: 100%; 
+  border: none;
+}
+.clear {
+  clear: both;
+}
+a { 
+  text-decoration: none;
+}
+.page {
+  width: 100%; 
+  height: auto; 
+  min-width: 320px; 
+  margin: auto;
+}
+[v-cloak]{
+  display: none !important;
+}
